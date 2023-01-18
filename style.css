@@ -1,0 +1,78 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,201,1) 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.grid{
+  
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.block{
+    background-image: url(./brick.png);
+    background-size: 100px 20px;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+}
+
+.user{
+    background-image: url(./stone.png);
+    background-size: 100px 20px;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+}
+
+.ball {
+    background-image: url(./Red-Ball-PNG-Pic.png);
+    background-size: 20px 20px;
+    background-position: cover;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    position: absolute;
+}
+
+.score{
+    margin: 50px ;
+    font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+
+button {
+    margin: 40px;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	box-shadow: 3px 3px 0 black,
+		-3px -3px 0 black,
+		-3px 3px 0 black,
+		3px -3px 0 black;
+	transition: 500ms ease-in-out;
+}
+
+button:hover {
+	box-shadow: 20px 3px 0 black, -20px -3px 0 black;
+}
+
+button:focus {
+	outline: none;
+}
