@@ -1,6 +1,7 @@
 # RetroBracketGameJS!
 https://bengin34.github.io/RetroBracketGameJS/
 
+![brackets](https://user-images.githubusercontent.com/118957608/214542918-39aaafc1-7ad6-45be-8bb8-2738a58e408d.gif)
 
 
 ## My basic JS game series continue... And also my learning journey goes on...
